@@ -28,6 +28,6 @@ mouse_listener.start()
 
 keyboard_listener = keyboard.Listener(on_press=on_press, on_release=on_release)
 keyboard_listener.start()
-x
+
 mouse_listener.join()
 keyboard_listener.join()
