@@ -5,7 +5,7 @@ x_pressed = False
 def on_click(x, y, button, pressed):
     global x_pressed
     if pressed and button == mouse.Button.left and x_pressed:
-        print(f"({x}, {y})")
+        print(f"({x}, {y}),")
 
 def on_press(key):
     global x_pressed
